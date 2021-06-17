@@ -18,7 +18,7 @@ set tabstop=2
 set smarttab
 set softtabstop=2
 set shellslash
-set t_Co=256 " set term colors 256
+set t_Co=256 " set term colors 256 termguicolors NOT supported on OSX
 
 set encoding=UTF-8
 
@@ -34,17 +34,18 @@ set rtp+=$GOROOT/misc/vim
 
 " vim-plug
 call plug#begin()
- Plug 'vim-airline/vim-airline'
- Plug 'ryanoasis/vim-devicons'
- Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
- Plug 'tpope/vim-fugitive' 
- Plug 'airblade/vim-gitgutter'
+  Plug 'vim-airline/vim-airline'
+  Plug 'ryanoasis/vim-devicons'
+  Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
+  Plug 'tpope/vim-fugitive' 
+  Plug 'airblade/vim-gitgutter'
  
  "> Theme
- "Plug 'morhetz/gruvbox'
- Plug 'NLKNguyen/papercolor-theme'
- Plug 'vim-airline/vim-airline-themes'
- call plug#end()
+  "Plug 'morhetz/gruvbox'
+  Plug 'NLKNguyen/papercolor-theme'
+  Plug 'vim-airline/vim-airline-themes'
+
+call plug#end()
 "-- vim-plug END
 
 
@@ -64,9 +65,10 @@ let g:gitgutter_enabled = 1
 let g:gitgutter_map_keys = 0
 "-- gitgutter END
 
-" vim-airline
+" vim-airline settings
 let g:airline#extensions#wordcount#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1
-let g:airline_theme='term'
+let g:airline_theme='badwolf'
 "-- vim-airline END
+
 

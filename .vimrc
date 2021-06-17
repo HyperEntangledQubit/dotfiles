@@ -37,7 +37,8 @@ call plug#begin()
  Plug 'vim-airline/vim-airline'
  Plug 'ryanoasis/vim-devicons'
  Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
- 
+ Plug 'tpope/vim-fugitive' 
+ Plug 'airblade/vim-gitgutter'
  "> Theme
  "Plug 'morhetz/gruvbox'
  Plug 'NLKNguyen/papercolor-theme'

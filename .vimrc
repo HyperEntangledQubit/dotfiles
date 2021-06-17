@@ -39,10 +39,12 @@ call plug#begin()
  Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
  Plug 'tpope/vim-fugitive' 
  Plug 'airblade/vim-gitgutter'
+ 
  "> Theme
  "Plug 'morhetz/gruvbox'
  Plug 'NLKNguyen/papercolor-theme'
-call plug#end()
+ Plug 'vim-airline/vim-airline-themes'
+ call plug#end()
 "-- vim-plug END
 
 
@@ -51,3 +53,20 @@ autocmd vimenter * ++nested colorscheme PaperColor
 "colorscheme PaperColor gruvbox
 set background=dark
 "-- theme settings END
+
+" gitgutter settings
+highlight GitGutterAdd guifg=#009900 ctermfg=Green
+highlight GitGutterChange guifg=#bbbb00 ctermfg=Yellow
+highlight GitGutterDelete guifg=#ff2222 ctermfg=Red
+nmap ) <Plug>(GitGutterNextHunk)
+nmap ( <Plug>(GitGutterPrevHunk)
+let g:gitgutter_enabled = 1
+let g:gitgutter_map_keys = 0
+"-- gitgutter END
+
+" vim-airline
+let g:airline#extensions#wordcount#enabled = 1
+let g:airline#extensions#hunks#non_zero_only = 1
+let g:airline_theme='term'
+"-- vim-airline END
+

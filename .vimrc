@@ -1,3 +1,5 @@
+set encoding=utf8
+
 filetype indent plugin on  
 
 syntax on
@@ -19,10 +21,7 @@ set smarttab
 set softtabstop=2
 set shellslash
 set t_Co=256 " set term colors 256 termguicolors NOT supported on OSX
-set listchars=eol:␤,tab:␉→,trail:␢,extends:»,precedes:«,space:·
-
-
-set encoding=UTF-8
+set listchars=eol:$,tab:->,trail:~,extends:»,precedes:«,space:·
 
 " netrw
 nnoremap - :Explore<CR>
@@ -34,6 +33,12 @@ let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro'
 " Add syntax highlighting for GO
 set rtp+=$GOROOT/misc/vim
 
+" Shortcutting split navigation
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
+
 " vim-plug
 call plug#begin()
   Plug 'vim-airline/vim-airline'
@@ -41,7 +46,7 @@ call plug#begin()
   Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
   Plug 'tpope/vim-fugitive' 
   Plug 'airblade/vim-gitgutter'
- 
+  Plug 'scrooloose/nerdtree' 
  "> Theme
   "Plug 'morhetz/gruvbox'
   Plug 'NLKNguyen/papercolor-theme'
@@ -73,4 +78,6 @@ let g:airline#extensions#hunks#non_zero_only = 1
 let g:airline_theme='badwolf'
 "-- vim-airline END
 
-
+" nerdtree settings
+nmap <C-f> :NERDTreeToggle<CR>
+"-- nerdtree END

@@ -19,6 +19,8 @@ set smarttab
 set softtabstop=2
 set shellslash
 set t_Co=256 " set term colors 256 termguicolors NOT supported on OSX
+set listchars=eol:␤,tab:␉→,trail:␢,extends:»,precedes:«,space:·
+
 
 set encoding=UTF-8
 

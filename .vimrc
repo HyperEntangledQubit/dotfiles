@@ -10,6 +10,7 @@ set laststatus=2
 set vb
 set ruler
 set spelllang=en_us
+set list
 set autoindent
 set noscrollbind
 set wildmenu
@@ -39,6 +40,9 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Shortcut to list all buffers
+nnoremap <Leader>b :ls<CR>:b<Space>
+
 " vim-plug
 call plug#begin()
   Plug 'vim-airline/vim-airline'
@@ -48,7 +52,7 @@ call plug#begin()
   Plug 'airblade/vim-gitgutter'
   Plug 'scrooloose/nerdtree' 
  "> Theme
-  "Plug 'morhetz/gruvbox'
+ " Plug 'morhetz/gruvbox'
   Plug 'NLKNguyen/papercolor-theme'
   Plug 'vim-airline/vim-airline-themes'
 
@@ -60,6 +64,8 @@ call plug#end()
 autocmd vimenter * ++nested colorscheme PaperColor 
 "colorscheme PaperColor gruvbox
 set background=dark
+"Make comments appear in italics in terminal and vim
+highlight Comment cterm=italic
 "-- theme settings END
 
 " gitgutter settings
@@ -79,5 +85,5 @@ let g:airline_theme='badwolf'
 "-- vim-airline END
 
 " nerdtree settings
-nmap <C-f> :NERDTreeToggle<CR>
+nmap <C-g> :NERDTreeToggle<CR>
 "-- nerdtree END

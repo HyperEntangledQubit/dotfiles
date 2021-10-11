@@ -40,6 +40,14 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Keybindings for navigating file
+nnoremap gl $
+nnoremap gh 0
+nnoremap gk H
+nnoremap gj L
+nnoremap gt gg
+nnoremap gb G
+
 " Shortcut to list all buffers
 nnoremap <Leader>b :ls<CR>:b<Space>
 
@@ -47,13 +55,16 @@ nnoremap <Leader>b :ls<CR>:b<Space>
 call plug#begin()
   Plug 'vim-airline/vim-airline'
   Plug 'ryanoasis/vim-devicons'
+	Plug 'tpope/vim-commentary'
+	Plug 'tpope/vim-surround'
   Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
   Plug 'tpope/vim-fugitive' 
   Plug 'airblade/vim-gitgutter'
   Plug 'scrooloose/nerdtree' 
  "> Theme
  " Plug 'morhetz/gruvbox'
-  Plug 'NLKNguyen/papercolor-theme'
+  Plug 'sjl/badwolf'
+ " Plug 'NLKNguyen/papercolor-theme'
   Plug 'vim-airline/vim-airline-themes'
 
 call plug#end()
@@ -61,11 +72,9 @@ call plug#end()
 
 
 "> theme settings
-autocmd vimenter * ++nested colorscheme PaperColor 
-"colorscheme PaperColor gruvbox
+autocmd vimenter * ++nested colorscheme badwolf
+"colorscheme PaperColor gruvbox badwolf
 set background=dark
-"Make comments appear in italics in terminal and vim
-highlight Comment cterm=italic
 "-- theme settings END
 
 " gitgutter settings

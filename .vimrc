@@ -55,8 +55,8 @@ nnoremap <Leader>b :ls<CR>:b<Space>
 call plug#begin()
   Plug 'vim-airline/vim-airline'
   Plug 'ryanoasis/vim-devicons'
-	Plug 'tpope/vim-commentary'
-	Plug 'tpope/vim-surround'
+  Plug 'tpope/vim-commentary'
+  Plug 'tpope/vim-surround'
   Plug 'tpope/vim-unimpaired' " [e move a line up && ]e move a line down
   Plug 'tpope/vim-fugitive' 
   Plug 'airblade/vim-gitgutter'

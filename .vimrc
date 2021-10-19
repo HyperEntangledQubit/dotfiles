@@ -10,7 +10,6 @@ set laststatus=2
 set vb
 set ruler
 set spelllang=en_us
-set list
 set autoindent
 set noscrollbind
 set wildmenu
@@ -23,6 +22,7 @@ set softtabstop=2
 set shellslash
 set t_Co=256 " set term colors 256 termguicolors NOT supported on OSX
 set listchars=eol:$,tab:->,trail:~,extends:»,precedes:«,space:·
+set list
 
 " netrw
 nnoremap - :Explore<CR>
@@ -61,6 +61,7 @@ call plug#begin()
   Plug 'tpope/vim-fugitive' 
   Plug 'airblade/vim-gitgutter'
   Plug 'scrooloose/nerdtree' 
+
  "> Theme
  " Plug 'morhetz/gruvbox'
   Plug 'sjl/badwolf'

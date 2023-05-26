@@ -10,6 +10,7 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.lcovrc:
+    ~/.cargo:
 
 - create:
     - ~/Work

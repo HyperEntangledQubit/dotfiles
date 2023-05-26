@@ -1,7 +1,9 @@
 
 # Set Variables
+export MANPAGER="sh -c 'col -bx | bat -l man -p --theme=gruvbox-dark'"
 
 # Change ZSH options
+export LS_COLORS="$(vivid generate gruvbox-dark)"
 
 # Create aliases
 alias ls="lsd"

@@ -12,3 +12,4 @@
 - [ ] .zshrc
 - [ ] Git (config && SSH) 
 - [ ] Homebrew installation
+- [ ] Explore adding other git submodules into this repo (i.e. cargo/ vim/)

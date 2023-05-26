@@ -26,3 +26,6 @@ export PATH="/usr/local/opt/bison/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bison/lib"
 
 # Use zsh plugins
+
+# Adding GPG env var
+export GPG_TTY=$(tty)

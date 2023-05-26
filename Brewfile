@@ -22,6 +22,8 @@ brew "httpie"
 brew "lcov"
 # Conversion library
 brew "libiconv"
+# Mac App Store command-line interface
+brew "mas"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Google's own build tool
@@ -30,3 +32,4 @@ brew "bazelbuild/tap/bazel"
 cask "font-sauce-code-pro-nerd-font"
 # Git client focusing on productivity
 cask "gitkraken"
+mas "BBEdit", id: 404009241

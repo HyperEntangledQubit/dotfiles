@@ -1,3 +1,4 @@
 vim/
 cargo/
 *.lock.*
+config/iterm2/AppSupport

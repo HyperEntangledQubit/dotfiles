@@ -11,6 +11,9 @@
     ~/.gitconfig:
     ~/.lcovrc:
     ~/.cargo:
+    ~/.config/bat:
+      create: true
+      path: config/bat
 
 - create:
     - ~/Work

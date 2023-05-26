@@ -1,7 +1,8 @@
 
 # Set Variables
+# Gruvbox-dark themed man pages
 export MANPAGER="sh -c 'col -bx | bat -l man -p --theme=gruvbox-dark'"
-export LS_COLORS="$(vivid generate gruvbox-dark)"
+export LS_COLORS="$(vivid generate gruvbox-dark)" # vivid is managed by cargo
 
 # Change ZSH options
 bindkey -v # Set vi mode
@@ -18,7 +19,6 @@ alias vvim="vim ~/.vimrc"
 alias brave="open /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser"
 
 # Customize prompt
-# Shows current directory time and λ
 PROMPT='$THEME_PROMPT_PREFIX%f%B%F{240}%1 %d %T~%f%b %(?.%F{green}$THEME_VI_MODE_SYMBOL.%F{red}$THEME_VI_MODE_SYMBOL)%f '
 ## Init
 setopt PROMPT_SUBST

@@ -14,3 +14,4 @@
 - [x] Homebrew installation
 - [ ] Explore adding other git submodules into this repo (i.e. cargo/ vim/)
 - [ ] Need another file to manage zsh prompt functions. (Refactor as well) 
+- [ ] Add issues to fix remaining bat syntax highlighting issues within repo

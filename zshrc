@@ -3,6 +3,7 @@
 # Gruvbox-dark themed man pages
 export MANPAGER="sh -c 'col -bx | bat -l man -p --theme=gruvbox-dark'"
 export LS_COLORS="$(vivid generate gruvbox-dark)" # vivid is managed by cargo
+export HOMEBREW_CASK_OPTS="--no-quarantine" # Becareful with this...
 
 # Change ZSH options
 bindkey -v # Set vi mode

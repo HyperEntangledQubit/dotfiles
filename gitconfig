@@ -1,0 +1,6 @@
+[user]
+	name = Brad
+	email = 25336193+HyperEntangledQubit@users.noreply.github.com
+	signingkey = 4BF1B4D85A6C122A
+[commit]
+	gpgsign = true

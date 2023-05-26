@@ -3,7 +3,7 @@
 🔧 .files, including ~/.macos — sensible hacker defaults for macOS
 
 ## TODO
-- [ ] Terminal preferences
+- [x] iTerm2 preferences
 - [x] Changed Shell to ZSH
 - [x] Dock preferences
 - [x] Mission Control preferences (don't rearrange spaces)
@@ -11,6 +11,6 @@
 - [x] Trackpad (Three-finger-drag and Tap-to-click)
 - [x] .zshrc
 - [x] Git (config && SSH) 
-- [ ] Homebrew installation
+- [x] Homebrew installation
 - [ ] Explore adding other git submodules into this repo (i.e. cargo/ vim/)
 - [ ] Need another file to manage zsh prompt functions. (Refactor as well) 

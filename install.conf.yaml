@@ -10,11 +10,13 @@
     ~/.zshrc:
     ~/.gitconfig:
     ~/.lcovrc:
+    ~/.cargo:
 
 - create:
     - ~/Work
     - ~/.vim/undo-history
 
 - shell:
+  - command: ./brewSetup.zsh
   - [git submodule update --init --recursive, Installing submodules]
 

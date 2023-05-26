@@ -4,3 +4,9 @@
 	signingkey = 4BF1B4D85A6C122A
 [commit]
 	gpgsign = true
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --

@@ -12,6 +12,8 @@ brew "cmake"
 brew "coreutils"
 # Modern replacement for 'ls'
 brew "exa"
+# GNU debugger
+brew "gdb"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Graph visualization software from AT&T and Bell Labs

@@ -22,5 +22,6 @@
 
 - shell:
   - command: ./brewSetup.zsh
-  - [git submodule update --init --recursive, Installing submodules]
+    stdout: true
+    stderr: true
 

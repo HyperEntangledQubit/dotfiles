@@ -1,9 +1,13 @@
 #!/usr/bin/env zsh
 
-# Needs a refactor
+echo "Checking to see if user have homebrew installed..."
 
-# install homebrew
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+if exists brew; then
+    echo "brew exists, skipping install"
+else
+    # install homebrew
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 
 # NOTE: Get the actual packages user  installed via brew is `brew leaves`
 # Standard command is `brew list`. This includes all dependancies

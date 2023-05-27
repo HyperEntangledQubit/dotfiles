@@ -1,4 +1,3 @@
-echo "hello from .zshenv"
 . "$HOME/.cargo/env"
 
 function exists() {

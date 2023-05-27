@@ -20,6 +20,8 @@ brew "graphviz"
 brew "httpie"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
+# Pager program similar to more
+brew "less"
 # Conversion library
 brew "libiconv"
 # Mac App Store command-line interface

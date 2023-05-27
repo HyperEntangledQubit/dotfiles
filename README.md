@@ -13,6 +13,8 @@
 - [x] Git (config && SSH) 
 - [x] Homebrew installation
 - [ ] Explore adding other git submodules into this repo (i.e. cargo/ vim/)
+- [ ] Track cargo and vim deps (cargo has modules not tracked via brew)
 - [ ] Need another file to manage zsh prompt functions. (Refactor as well) 
 - [ ] Add issues to fix remaining bat syntax highlighting issues within repo
+- [ ] Add issues to fix bat highlighting for configs within /etc
 - [ ] Add issue to clone and install googletest, doxygen, cargo, golang

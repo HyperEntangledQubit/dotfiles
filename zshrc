@@ -11,6 +11,7 @@ bindkey -v # Set vi mode
 # Create aliases
 alias ls="lsd"
 alias cat="bat --theme=gruvbox-dark"
+alias less="/usr/local/bin/less" # use the brew installed version
 
 alias vzsh="vim ~/.zshrc"
 alias szsh="source ~/.zshrc"

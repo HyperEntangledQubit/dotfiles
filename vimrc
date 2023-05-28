@@ -73,8 +73,7 @@ Plug 'szw/vim-maximizer'                       " Toggle buffer min/max
 Plug 'vim-airline/vim-airline'                 " Adds airline to vim
 
 " Language specific
-" May get rid of this.
-" Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
+Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
 Plug 'cespare/vim-toml'                        " Syntax highlighting for toml
 
 " Git helpers

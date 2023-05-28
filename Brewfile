@@ -2,6 +2,7 @@ tap "bazelbuild/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "universal-ctags/universal-ctags"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
 # Performance-portable, length-agnostic SIMD with runtime dispatch
@@ -20,16 +21,16 @@ brew "freetype"
 brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Library for command-line editing
+brew "readline"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.11"
 # Modern replacement for 'ls'
 brew "exa"
 # Library for encoding and decoding .avif files
 brew "libavif"
 # Graphics library to dynamically manipulate images
 brew "gd"
-# Library for command-line editing
-brew "readline"
-# Interpreted, interactive, object-oriented programming language
-brew "python@3.11"
 # GNU debugger
 brew "gdb"
 # Toolkit for image loading and pixel buffer manipulation
@@ -68,6 +69,8 @@ brew "openssl@3"
 brew "pkg-config"
 # Code-search similar to ack
 brew "the_silver_searcher"
+# Maintained ctags implementation
+brew "universal-ctags"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
 # Google's own build tool

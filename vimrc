@@ -5,8 +5,8 @@
 
 set encoding=utf8
 
-syntax on
-filetype plugin on " Turn on plugin for filetype
+syntax enable
+filetype plugin indent on " Turn on plugin for filetype
 
 set title
 set clipboard=unnamed
@@ -71,6 +71,11 @@ Plug 'tpope/vim-commentary'                    " Shortcut to comment out lines i
 Plug 'tpope/vim-unimpaired'                    " Handy bracket mappings '[e' move line up, ]e line down
 Plug 'szw/vim-maximizer'                       " Toggle buffer min/max
 Plug 'vim-airline/vim-airline'                 " Adds airline to vim
+
+" Language specific
+" May get rid of this.
+" Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
+Plug 'cespare/vim-toml'                        " Syntax highlighting for toml
 
 " Git helpers
 Plug 'airblade/vim-gitgutter'                  " Shows status in VCS tracked files in gutter

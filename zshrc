@@ -62,9 +62,11 @@ TRAPINT() {
 # Add locations to $PATH
 export CPLUS_INCLUDE_PATH=/usr/local/include
 export LIBRARY_PATH=/usr/local/lib
-
+export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/bison/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bison/lib"
+export LDFLAGS="-L/usr/local/opt/readline/lib"
+export CPPFLAGS="-I/usr/local/opt/readline/include"
 
 # Use zsh plugins
 

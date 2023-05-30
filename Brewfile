@@ -61,6 +61,8 @@ brew "libiconv"
 brew "libxcb"
 # Mac App Store command-line interface
 brew "mas"
+# Netwide Assembler (NASM) is an 80x86 assembler
+brew "nasm"
 # Development kit for the Java programming language
 brew "openjdk@11"
 # Cryptography and SSL/TLS Toolkit

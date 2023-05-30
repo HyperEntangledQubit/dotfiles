@@ -12,6 +12,10 @@ set title
 set clipboard=unnamed
 set ttyfast
 set ttimeoutlen=50
+set noerrorbells
+set backspace=indent,eol,start
+set showcmd
+set fileformats=unix,mac,dos
 
 set cursorline
 set colorcolumn=80
@@ -105,4 +109,10 @@ hi IndentGuidesOdd guibg=237 ctermbg=236
 hi IndentGuidesEven guibg=236 ctermbg=237
 
 let NERDTreeShowHidden=1
+
+if has('macunix')
+    let g:rust_clip_command = 'pbcopy'
+else
+    let g:rust_clip_command = 'xclip -selection clipboard'
+endif
 

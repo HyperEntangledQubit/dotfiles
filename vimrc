@@ -105,8 +105,8 @@ let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
 let g:indent_guides_auto_colors = 0
 
-hi IndentGuidesOdd guibg=237 ctermbg=236
-hi IndentGuidesEven guibg=236 ctermbg=237
+hi IndentGuidesOdd ctermbg=236
+hi IndentGuidesEven ctermbg=237
 
 let NERDTreeShowHidden=1
 
@@ -116,3 +116,4 @@ else
     let g:rust_clip_command = 'xclip -selection clipboard'
 endif
 
+autocmd BufNew,BufRead *.asm set ft=nasm

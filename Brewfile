@@ -9,6 +9,8 @@ brew "brotli"
 brew "highway"
 # Library of 2D and 3D vector, matrix, and math operations
 brew "imath"
+# General-purpose data compression with high compression ratio
+brew "xz"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration
@@ -23,6 +25,8 @@ brew "cmake"
 brew "coreutils"
 # Library for command-line editing
 brew "readline"
+# Command-line interface for SQLite
+brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
 # Modern replacement for 'ls'
@@ -69,12 +73,18 @@ brew "openjdk@11"
 brew "openssl@3"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Python version management
+brew "pyenv"
+# Tool Command Language
+brew "tcl-tk"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Maintained ctags implementation
 brew "universal-ctags"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# General-purpose lossless data-compression library
+brew "zlib"
 # Google's own build tool
 brew "bazelbuild/tap/bazel"
 mas "BBEdit", id: 404009241

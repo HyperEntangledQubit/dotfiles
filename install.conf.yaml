@@ -15,6 +15,7 @@
     ~/.config/bat:
       create: true
       path: config/bat
+    ~/.pyenv:
 
 - create:
     - ~/Work

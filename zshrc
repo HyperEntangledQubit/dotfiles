@@ -64,11 +64,19 @@ export CPLUS_INCLUDE_PATH=/usr/local/include
 export LIBRARY_PATH=/usr/local/lib
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/bison/bin:$PATH"
+export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bison/lib"
 export LDFLAGS="-L/usr/local/opt/readline/lib"
+export LDFLAGS="-L/usr/local/opt/sqlite/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
+export CPPFLAGS="-I/usr/local/opt/sqlite/include"
 
 # Use zsh plugins
 
 # Adding GPG env var
 export GPG_TTY=$(tty)
+
+# Adding pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"

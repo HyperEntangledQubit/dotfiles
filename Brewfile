@@ -87,4 +87,6 @@ brew "watch"
 brew "zlib"
 # Google's own build tool
 brew "bazelbuild/tap/bazel"
+# Developer targeted fonts with a high number of glyphs
+cask "font-fira-mono-nerd-font"
 mas "BBEdit", id: 404009241

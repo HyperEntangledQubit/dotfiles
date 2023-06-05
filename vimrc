@@ -79,6 +79,7 @@ Plug 'vim-airline/vim-airline'                 " Adds airline to vim
 " Language specific
 Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
 Plug 'cespare/vim-toml'                        " Syntax highlighting for toml
+Plug 'bfrg/vim-cpp-modern'                      " Syntax highlighting for modern cpp
 
 " Git helpers
 Plug 'airblade/vim-gitgutter'                  " Shows status in VCS tracked files in gutter

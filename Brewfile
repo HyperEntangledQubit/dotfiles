@@ -55,6 +55,8 @@ brew "graphviz"
 brew "pygments"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Julia installer and version multiplexer
+brew "juliaup"
 # Graphical front-end for GCC's coverage testing tool (gcov)
 brew "lcov"
 # Pager program similar to more
@@ -75,6 +77,8 @@ brew "openssl@3"
 brew "pkg-config"
 # Python version management
 brew "pyenv"
+# Intuitive find & replace CLI
+brew "sd"
 # Tool Command Language
 brew "tcl-tk"
 # Code-search similar to ack

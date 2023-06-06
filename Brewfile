@@ -55,6 +55,8 @@ brew "graphviz"
 brew "pygments"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Command-line benchmarking tool
+brew "hyperfine"
 # Julia installer and version multiplexer
 brew "juliaup"
 # Graphical front-end for GCC's coverage testing tool (gcov)

@@ -75,6 +75,8 @@ Plug 'tpope/vim-commentary'                    " Shortcut to comment out lines i
 Plug 'tpope/vim-unimpaired'                    " Handy bracket mappings '[e' move line up, ]e line down
 Plug 'szw/vim-maximizer'                       " Toggle buffer min/max
 Plug 'vim-airline/vim-airline'                 " Adds airline to vim
+Plug 'andymass/vim-matchup'                    " Extend % operator in vim
+Plug 'andrewradev/splitjoin.vim'               " gS to split one line into multi gJ to join multi into single
 
 " Language specific
 Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
@@ -90,6 +92,8 @@ Plug 'godlygeek/tabular'                       " Align text via regex
 Plug 'mg979/vim-visual-multi'                  " Allow for multiple selection based on char
 Plug 'ntpeters/vim-better-whitespace'          " Strip & highlight whitespace
 Plug 'nathanaelkane/vim-indent-guides'         " Allows for colored indent guides
+Plug 'ervandew/supertab'                       " Allow for tab completion
+
 
 " Theme setting
 Plug 'morhetz/gruvbox'

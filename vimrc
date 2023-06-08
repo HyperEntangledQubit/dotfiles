@@ -81,7 +81,9 @@ Plug 'andrewradev/splitjoin.vim'               " gS to split one line into multi
 " Language specific
 Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
 Plug 'cespare/vim-toml'                        " Syntax highlighting for toml
-Plug 'bfrg/vim-cpp-modern'                      " Syntax highlighting for modern cpp
+Plug 'bfrg/vim-cpp-modern'                     " Syntax highlighting for modern cpp
+Plug 'JuliaEditorSupport/julia-vim'            " Syntax highlighting for Julia
+Plug 'fatih/vim-go'                            " Myriad of tools for go development
 
 " Git helpers
 Plug 'airblade/vim-gitgutter'                  " Shows status in VCS tracked files in gutter

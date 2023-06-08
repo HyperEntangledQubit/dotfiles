@@ -37,6 +37,14 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 
+" Swap splits prev with current
+nnoremap <C-X> <C-W><C-X>
+
+" Flip between vertical and horizontal splits
+" TODO figure out a better way to do this
+nnoremap <C-B> <C-W>K
+nnoremap <C-V> <C-W>H
+
 set foldmethod=manual
 set foldnestmax=10
 set nofoldenable

@@ -65,12 +65,12 @@ export LIBRARY_PATH=/usr/local/lib
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/bison/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
+export PATH="${HOME}/go/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bison/lib"
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export LDFLAGS="-L/usr/local/opt/sqlite/lib"
 export CPPFLAGS="-I/usr/local/opt/readline/include"
 export CPPFLAGS="-I/usr/local/opt/sqlite/include"
-
 # Use zsh plugins
 
 # Adding GPG env var

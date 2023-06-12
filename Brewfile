@@ -11,6 +11,10 @@ brew "highway"
 brew "imath"
 # General-purpose data compression with high compression ratio
 brew "xz"
+# High dynamic-range image file format
+brew "openexr"
+# New file format for still image compression
+brew "jpeg-xl"
 # Codec library for encoding and decoding AV1 video streams
 brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration

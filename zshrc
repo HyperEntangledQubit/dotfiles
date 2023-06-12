@@ -12,6 +12,7 @@ bindkey -v # Set vi mode
 alias ls="lsd"
 alias cat="bat --theme=gruvbox-dark"
 alias less="/usr/local/bin/less" # use the brew installed version
+alias python="${HOME}/.pyenv/shims/python3" # set default to py 3.11.3
 
 alias vzsh="vim ~/.zshrc"
 alias szsh="source ~/.zshrc"
@@ -66,6 +67,7 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/opt/bison/bin:$PATH"
 export PATH="/usr/local/opt/sqlite/bin:$PATH"
 export PATH="${HOME}/go/bin:$PATH"
+export PATH="${HOME}/.nimble/bin:$PATH"
 export LDFLAGS="-L/usr/local/opt/bison/lib"
 export LDFLAGS="-L/usr/local/opt/readline/lib"
 export LDFLAGS="-L/usr/local/opt/sqlite/lib"

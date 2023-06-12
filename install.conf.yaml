@@ -16,6 +16,9 @@
       create: true
       path: config/bat
     ~/.pyenv:
+      create: true
+    ~/.nimble:
+      create: true
 
 - create:
     - ~/Work

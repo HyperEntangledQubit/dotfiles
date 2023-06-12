@@ -1,5 +1,7 @@
 vim/
 cargo/
+pyenv/
+nimble/
 *.lock.*
 *.swp
 

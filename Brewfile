@@ -61,6 +61,8 @@ brew "pygments"
 brew "httpie"
 # Command-line benchmarking tool
 brew "hyperfine"
+# Interactive computing in Python
+brew "ipython"
 # Julia installer and version multiplexer
 brew "juliaup"
 # Graphical front-end for GCC's coverage testing tool (gcov)

@@ -56,6 +56,13 @@ set softtabstop=4
 set smarttab
 set nojoinspaces
 
+" Keep undo history across sessions by storing in file
+if has('persisent_undo') && isdirectory(expand('~').'/vim/backups')
+    silent !mkdir ~/.vim/backups > /dev/null 2>&1
+    set undodir=~/.vim/backups
+    set undofile
+endif
+
 map <leader>t :NERDTreeToggle %<CR>
 map <leader>b :Git blame<CR>
 map <leader>n :set rnu!<CR>

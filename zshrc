@@ -82,3 +82,10 @@ export GPG_TTY=$(tty)
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+
+# Macro to view md files in terminal
+# Need to add checks for brew pkgs here
+rmd() {
+    pandoc $1 | lynx -stdin
+}
+

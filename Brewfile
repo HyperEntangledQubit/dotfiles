@@ -73,14 +73,18 @@ brew "less"
 brew "libiconv"
 # X.Org: Interface to the X Window System protocol
 brew "libxcb"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@3"
+# Text-based web browser
+brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
 # Netwide Assembler (NASM) is an 80x86 assembler
 brew "nasm"
 # Development kit for the Java programming language
 brew "openjdk@11"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
+# Swiss-army knife of markup format conversion
+brew "pandoc"
 # Manage compile and link flags for libraries
 brew "pkg-config"
 # Python version management

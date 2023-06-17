@@ -43,6 +43,8 @@ brew "gd"
 brew "gdb"
 # Toolkit for image loading and pixel buffer manipulation
 brew "gdk-pixbuf"
+# GitHub command-line tool
+brew "gh"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # GNU triangulated surface library

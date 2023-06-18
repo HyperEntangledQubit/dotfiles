@@ -20,6 +20,7 @@ alias szsh="source ~/.zshrc"
 alias vvim="vim ~/.vimrc"
 
 alias brave="open /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser"
+alias bbd="brew bundle dump --force --dump"
 
 # Customize prompt
 PROMPT='$THEME_PROMPT_PREFIX%f%B%F{240}%1 %d %T~%f%b %(?.%F{green}$THEME_VI_MODE_SYMBOL.%F{red}$THEME_VI_MODE_SYMBOL)%f '

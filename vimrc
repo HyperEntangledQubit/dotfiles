@@ -1,5 +1,9 @@
-" Last updated 5-20-23
+" Generate this date programtically: maybe vimscript?
+" Last updated 6-18-23
 
+"-- TODO Create issues for these
+"-- TODO Create hooks for these...
+"-- TODO Need description in here for all of these
 "-- TODO Check if vimplug is installed. If NOT then install.
 "-- TODO Check if Nerd font is being used. Only install plugins if yes
 
@@ -50,9 +54,11 @@ set foldnestmax=10
 set nofoldenable
 set foldlevel=2
 
+set autoindent
 set expandtab
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set smarttab
 set nojoinspaces
 
@@ -139,4 +145,5 @@ else
 endif
 
 autocmd BufNew,BufRead *.asm set ft=nasm
-autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=4 shiftwidth=4
+" Do I need to this command?
+" autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=2 shiftwidth=2

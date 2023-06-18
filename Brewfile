@@ -57,6 +57,8 @@ brew "pango"
 brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# Improved top (interactive process viewer)
+brew "htop"
 # Generic syntax highlighter
 brew "pygments"
 # User-friendly cURL replacement (command-line HTTP client)

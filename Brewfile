@@ -103,6 +103,8 @@ brew "the_silver_searcher"
 brew "universal-ctags"
 # Executes a program periodically, showing output fullscreen
 brew "watch"
+# Internet file retriever
+brew "wget"
 # General-purpose lossless data-compression library
 brew "zlib"
 # Google's own build tool

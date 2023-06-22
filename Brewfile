@@ -91,6 +91,8 @@ brew "openjdk@11"
 brew "pandoc"
 # Manage compile and link flags for libraries
 brew "pkg-config"
+# Password generator
+brew "pwgen"
 # Python version management
 brew "pyenv"
 # Intuitive find & replace CLI

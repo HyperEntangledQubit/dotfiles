@@ -1,0 +1,26 @@
+# top-most EditorConfig file
+root = true
+
+# basics for all files in our project
+[*]
+charset = utf-8
+end_of_line = lf
+
+# C and JavaScript source get 4-space indents
+[*.{c,js}]
+indent_style = space
+indent_size = 4
+
+# Ruby gets 2-space indents
+[*.rb]
+indent_style = space
+indent_size = 2
+
+# Rust gets 2-space indents
+[*.rs]
+indent_style = space
+indent_size = 2
+
+# HTML gets tab indents
+[*.html]
+indent_style = tab

@@ -146,6 +146,9 @@ else
 endif
 
 autocmd BufNew,BufRead *.asm set ft=nasm
-autocmd BufNew,BufRead *.rs set noexpandtab tabstop=2 shiftwidth=2
+
+let g:EditorConfig_exec_path = '${HOME}/.editorconfig'
+
+" autocmd BufNew,BufRead *.rs set noexpandtab tabstop=2 shiftwidth=2
 " Do I need to this command?
 " autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=2 shiftwidth=2

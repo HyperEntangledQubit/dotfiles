@@ -100,6 +100,7 @@ Plug 'andymass/vim-matchup'                    " Extend % operator in vim
 Plug 'andrewradev/splitjoin.vim'               " gS to split one line into multi gJ to join multi into single
 
 " Language specific
+Plug 'editorconfig/editorconfig-vim'           " Allow vim to read .editorconfig
 Plug 'rust-lang/rust.vim'                      " Myriad of tools for rust development
 Plug 'cespare/vim-toml'                        " Syntax highlighting for toml
 Plug 'bfrg/vim-cpp-modern'                     " Syntax highlighting for modern cpp

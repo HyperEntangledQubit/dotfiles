@@ -19,7 +19,7 @@ indent_size = 2
 # Rust gets 2-space indents
 [*.rs]
 indent_style = space
-indent_size = 2
+indent_size = 4
 
 # HTML gets tab indents
 [*.html]

@@ -147,6 +147,9 @@ endif
 
 autocmd BufNew,BufRead *.asm set ft=nasm
 
+" Run RustFmt on save in active *.rs files in buffer
+let g:rustfmt_autosave = 1
+
 let g:EditorConfig_exec_path = '${HOME}/.editorconfig'
 
 " autocmd BufNew,BufRead *.rs set noexpandtab tabstop=2 shiftwidth=2

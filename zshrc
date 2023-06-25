@@ -17,6 +17,8 @@ alias python="${HOME}/.pyenv/shims/python3" # set default to py 3.11.3
 alias vzsh="vim ~/.zshrc"
 alias szsh="source ~/.zshrc"
 
+alias sedit="vim ~/.editorconfig"
+
 alias vvim="vim ~/.vimrc"
 
 alias brave="open /Applications/Brave\ Browser.app/Contents/MacOS/Brave\ Browser"

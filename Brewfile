@@ -23,6 +23,8 @@ brew "bat"
 brew "bison"
 # Software library to render fonts
 brew "freetype"
+# X.Org: Interface to the X Window System protocol
+brew "libxcb"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
@@ -53,6 +55,8 @@ brew "gts"
 brew "harfbuzz"
 # Framework for layout and rendering of i18n text
 brew "pango"
+# Library to render SVG files using Cairo
+brew "librsvg"
 # Generic library support script
 brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
@@ -75,8 +79,6 @@ brew "lcov"
 brew "less"
 # Conversion library
 brew "libiconv"
-# X.Org: Interface to the X Window System protocol
-brew "libxcb"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@3"
 # Text-based web browser

@@ -7,13 +7,13 @@
 - link:
     ~/.vim:
     ~/.vimrc:
+    ~/.editorconfig:
     ~/.zshrc:
     ~/.zshenv:
     ~/.github:
       create: false
     ~/.gitattributes:
     ~/.gitconfig:
-    ~/.gitmodules:
     ~/.lcovrc:
     ~/.cargo:
     ~/.config/bat:

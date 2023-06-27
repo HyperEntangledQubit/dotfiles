@@ -1,11 +1,15 @@
 # top-most EditorConfig file
 root = true
 
+
 # basics for all files in our project
 [*]
 charset = utf-8
 max_line_length = 80
 end_of_line = lf
+
+spaces_around_operators = true
+spaces_around_brackets = false
 
 # C and JavaScript source get 4-space indents
 [*.{c,cpp,js,py}]
@@ -25,3 +29,4 @@ indent_size = 4
 # HTML gets tab indents
 [*.html]
 indent_style = tab
+quote_type = double

@@ -126,9 +126,10 @@ call plug#end()
 
 colorscheme gruvbox
 hi Comment ctermfg=64
-hi Number ctermfg=178
 hi Visual cterm=bold ctermbg=232 ctermfg=NONE
 hi CursorLine cterm=bold ctermbg=237 ctermfg=NONE
+
+hi Function cterm=bold ctermfg=208
 
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
@@ -151,7 +152,3 @@ autocmd BufNew,BufRead *.asm set ft=nasm
 let g:rustfmt_autosave = 1
 
 let g:EditorConfig_exec_path = '${HOME}/.editorconfig'
-
-" autocmd BufNew,BufRead *.rs set noexpandtab tabstop=2 shiftwidth=2
-" Do I need to this command?
-" autocmd BufNewFile,BufRead *.go setlocal noexpandtab tabstop=2 shiftwidth=2

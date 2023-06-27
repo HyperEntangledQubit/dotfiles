@@ -1,7 +1,6 @@
 # top-most EditorConfig file
 root = true
 
-
 # basics for all files in our project
 [*]
 charset = utf-8
@@ -12,17 +11,7 @@ spaces_around_operators = true
 spaces_around_brackets = false
 
 # C and JavaScript source get 4-space indents
-[*.{c,cpp,js,py}]
-indent_style = space
-indent_size = 4
-
-# Ruby gets 2-space indents
-[*.rb]
-indent_style = space
-indent_size = 4
-
-# Rust gets 4-space indents
-[*.rs]
+[*.{c,cpp,js,py,rs,rb}]
 indent_style = space
 indent_size = 4
 

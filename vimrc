@@ -129,7 +129,7 @@ hi Comment ctermfg=64
 hi Visual cterm=bold ctermbg=232 ctermfg=NONE
 hi CursorLine cterm=bold ctermbg=237 ctermfg=NONE
 
-hi Function cterm=bold ctermfg=208
+hi Function cterm=bold ctermfg=72
 
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']

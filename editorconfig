@@ -4,19 +4,20 @@ root = true
 # basics for all files in our project
 [*]
 charset = utf-8
+max_line_length = 80
 end_of_line = lf
 
 # C and JavaScript source get 4-space indents
-[*.{c,js}]
+[*.{c,cpp,js,py}]
 indent_style = space
 indent_size = 4
 
 # Ruby gets 2-space indents
 [*.rb]
 indent_style = space
-indent_size = 2
+indent_size = 4
 
-# Rust gets 2-space indents
+# Rust gets 4-space indents
 [*.rs]
 indent_style = space
 indent_size = 4

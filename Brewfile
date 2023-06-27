@@ -80,7 +80,7 @@ brew "less"
 # Conversion library
 brew "libiconv"
 # Cryptography and SSL/TLS Toolkit
-brew "openssl@3"
+brew "openssl@3", link: false
 # Text-based web browser
 brew "lynx"
 # Mac App Store command-line interface
@@ -101,6 +101,8 @@ brew "pyenv"
 brew "sd"
 # Tool Command Language
 brew "tcl-tk"
+# Multi-platform code-search similar to ack and ag
+brew "the_platinum_searcher"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Maintained ctags implementation

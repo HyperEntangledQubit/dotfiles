@@ -1,8 +1,6 @@
 " Generate this date programtically: maybe vimscript?
-" Last updated 6-18-23
+" Last updated 7-3-23
 
-"-- TODO Create issues for these
-"-- TODO Create hooks for these...
 "-- TODO Need description in here for all of these
 "-- TODO Check if vimplug is installed. If NOT then install.
 "-- TODO Check if Nerd font is being used. Only install plugins if yes
@@ -43,11 +41,6 @@ nnoremap <C-L> <C-W><C-L>
 
 " Swap splits prev with current
 nnoremap <C-X> <C-W><C-X>
-
-" Flip between vertical and horizontal splits
-" TODO figure out a better way to do this
-" nnoremap <C-C> <C-W>K
-" nnoremap <C-V> <C-W>H
 
 set foldmethod=manual
 set foldnestmax=10

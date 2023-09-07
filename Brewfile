@@ -1,7 +1,6 @@
 tap "bazelbuild/tap"
 tap "homebrew/bundle"
 tap "homebrew/cask-fonts"
-tap "homebrew/core"
 tap "universal-ctags/universal-ctags"
 # Generic-purpose lossless compression algorithm by Google
 brew "brotli"
@@ -19,24 +18,44 @@ brew "jpeg-xl"
 brew "aom"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
-# Parser generator
-brew "bison"
 # Software library to render fonts
 brew "freetype"
 # X.Org: Interface to the X Window System protocol
 brew "libxcb"
+# OpenType text shaping engine
+brew "harfbuzz"
+# Development kit for the Java programming language
+brew "openjdk@11"
+# Google's own build tool
+brew "bazel"
+# Parser generator
+brew "bison"
 # Cross-platform make
 brew "cmake"
 # GNU File, Shell, and Text utilities
 brew "coreutils"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl@1.1"
 # Library for command-line editing
 brew "readline"
-# Command-line interface for SQLite
-brew "sqlite"
 # Interpreted, interactive, object-oriented programming language
 brew "python@3.11"
+# C library implementing the SSH2 protocol
+brew "libssh2"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # Modern replacement for 'ls'
 brew "exa"
+# Asynchronous event library
+brew "libevent"
+# Library to load and enumerate PKCS#11 modules
+brew "p11-kit"
+# Validating, recursive, caching DNS resolver
+brew "unbound"
+# GNU Transport Layer Security (TLS) Library
+brew "gnutls"
+# Framework for layout and rendering of i18n text
+brew "pango"
 # Library for encoding and decoding .avif files
 brew "libavif"
 # Graphics library to dynamically manipulate images
@@ -49,18 +68,18 @@ brew "gdk-pixbuf"
 brew "gh"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
+# Image manipulation
+brew "netpbm"
 # GNU triangulated surface library
 brew "gts"
-# OpenType text shaping engine
-brew "harfbuzz"
-# Framework for layout and rendering of i18n text
-brew "pango"
 # Library to render SVG files using Cairo
 brew "librsvg"
 # Generic library support script
 brew "libtool"
 # Graph visualization software from AT&T and Bell Labs
 brew "graphviz"
+# GNU grep, egrep and fgrep
+brew "grep"
 # Improved top (interactive process viewer)
 brew "htop"
 # Generic syntax highlighter
@@ -71,6 +90,8 @@ brew "httpie"
 brew "hyperfine"
 # Interactive computing in Python
 brew "ipython"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Julia installer and version multiplexer
 brew "juliaup"
 # Graphical front-end for GCC's coverage testing tool (gcov)
@@ -79,16 +100,16 @@ brew "lcov"
 brew "less"
 # Conversion library
 brew "libiconv"
-# Cryptography and SSL/TLS Toolkit
-brew "openssl@3", link: false
 # Text-based web browser
 brew "lynx"
 # Mac App Store command-line interface
 brew "mas"
+# Media player based on MPlayer and mplayer2
+brew "mpv"
 # Netwide Assembler (NASM) is an 80x86 assembler
 brew "nasm"
-# Development kit for the Java programming language
-brew "openjdk@11"
+# HTTP(S) server and reverse proxy, and IMAP/POP3 proxy server
+brew "nginx"
 # Swiss-army knife of markup format conversion
 brew "pandoc"
 # Manage compile and link flags for libraries
@@ -102,7 +123,7 @@ brew "sd"
 # Tool Command Language
 brew "tcl-tk"
 # Multi-platform code-search similar to ack and ag
-brew "the_platinum_searcher"
+brew "the_platinum_searcher", link: false
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Maintained ctags implementation
@@ -113,8 +134,6 @@ brew "watch"
 brew "wget"
 # General-purpose lossless data-compression library
 brew "zlib"
-# Google's own build tool
-brew "bazelbuild/tap/bazel"
 # Developer targeted fonts with a high number of glyphs
 cask "font-fira-mono-nerd-font"
 mas "BBEdit", id: 404009241

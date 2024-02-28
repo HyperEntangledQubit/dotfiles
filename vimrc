@@ -1,9 +1,10 @@
 " Generate this date programtically: maybe vimscript?
-" Last updated 7-3-23
+" Last updated 2-27-24
 
 "-- TODO Need description in here for all of these
 "-- TODO Check if vimplug is installed. If NOT then install.
 "-- TODO Check if Nerd font is being used. Only install plugins if yes
+"-- TODO way too many plugins...
 
 set encoding=utf8
 
@@ -11,6 +12,7 @@ syntax enable
 filetype plugin indent on " Turn on plugin for filetype
 
 set title
+set ruler
 set clipboard=unnamed
 set ttyfast
 set ttimeoutlen=50
@@ -25,7 +27,6 @@ set textwidth=80
 set scrolljump=5
 set lazyredraw
 set showmatch
-set number " Make this a macro
 set hidden
 
 set ignorecase
@@ -42,16 +43,11 @@ nnoremap <C-L> <C-W><C-L>
 " Swap splits prev with current
 nnoremap <C-X> <C-W><C-X>
 
-set foldmethod=manual
-set foldnestmax=10
-set nofoldenable
-set foldlevel=2
-
 set autoindent
 set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set smarttab
 set nojoinspaces
 
@@ -111,18 +107,27 @@ Plug 'ntpeters/vim-better-whitespace'          " Strip & highlight whitespace
 Plug 'nathanaelkane/vim-indent-guides'         " Allows for colored indent guides
 Plug 'ervandew/supertab'                       " Allow for tab completion
 
-
 " Theme setting
 Plug 'morhetz/gruvbox'
 
 call plug#end()
 
 colorscheme gruvbox
-hi Comment ctermfg=64
-hi Visual cterm=bold ctermbg=232 ctermfg=NONE
-hi CursorLine cterm=bold ctermbg=237 ctermfg=NONE
 
-hi Function cterm=bold ctermfg=72
+hi Keyword ctermfg=172
+hi String ctermfg=225
+hi Constant ctermfg=197
+hi Function cterm=BOLD ctermfg=178
+hi Identifier cterm=BOLD ctermfg=178
+hi Label ctermfg=202
+hi Number ctermfg=179
+hi PreProc ctermfg=211
+hi Comment ctermfg=28
+hi CursorLine cterm=BOLD ctermbg=234 ctermfg=NONE
+hi CursorlineNR cterm=BOLD ctermbg=234 ctermfg=128
+hi LineNR ctermbg=NONE ctermfg=127
+hi MatchParen cterm=BOLD ctermbg=29 ctermfg=15
+hi Visual cterm=BOLD ctermbg=52 ctermfg=NONE
 
 let g:indent_guides_enable_on_vim_startup = 1
 let g:indent_guides_exclude_filetypes = ['help', 'nerdtree']
